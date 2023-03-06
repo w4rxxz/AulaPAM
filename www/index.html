@@ -9,7 +9,30 @@
     <script type="text/javascript" src="components/macaco.js">
     </script>
 </head>
-<body onload="olamundo()">
-	<h1>Quebrando a maldição</h1>
+<body>
+
+  <div class="input-container">
+        <div class="row-input">
+            <div class="input-group">
+                <label for="num1" class="visually-hidden">valor de A:</label>
+                <input id="num1" type="number" title="Digite aqui o número 1 da regra de 3" placeholder="A" class="is-filled has-error">
+                <span id="arrow1" class="inbetween-inputs is-filled"> está para </span>
+                <label for="num2" class="visually-hidden">valor de B:</label>
+                <input id="num2" type="number" title="Digite aqui o número 2 da regra de 3" placeholder="B" class="">
+            </div>
+        </div>
+            <div id="arrow2" class="inbetween-input-groups">
+                assim como
+            </div>
+            <div class="row-input">
+                <div class="input-group">
+                    <label for="num3" class="visually-hidden">valor de C:</label>
+                    <input id="num3" type="number" title="Digite aqui o número 3 da regra de 3" placeholder="C">
+                    <div id="arrow3" class="inbetween-inputs">está para</div>
+                    <div class="result-input is-disabled" id="resposta" title="Aqui virá a resposta a regra de 3">X</div>
+                </div>
+            </div>
+            
+ </div>
 </body>
 </html>
